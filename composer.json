@@ -38,7 +38,10 @@
 	},
 
 	"autoload": {
-		"classmap": ["mpdf.php", "classes"]
+		"psr-4": {
+			"mPDF\\": ""
+		},
+		"classmap": ["classes"]
 	},
 
 	"scripts": {
